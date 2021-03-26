@@ -1,0 +1,1 @@
+This is an example software using Spring Boot MVC and H2, which is an in-memory database
