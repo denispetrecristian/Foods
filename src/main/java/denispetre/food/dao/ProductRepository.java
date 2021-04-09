@@ -1,4 +1,4 @@
 package denispetre.food.dao;
 
-public class ProductRepository {
+public class ProductRepository{
 }

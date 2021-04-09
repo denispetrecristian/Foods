@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" th:action="@{/events}" th:object="${products}" method="post">
+        <div class="form-group">
+            <label>
+                Name
+            </label>
+            <input type="name">
+            <label>
+                Description
+            </label>
+            <input>
+        </div>
+
+        <button class="btn btn-primary" type="submit"><i class="fas fa-bookmark" aria-hidden="true"></i> Save</button>
+        <a class="btn btn-warning" role="button" href="/index.html"><i class="fas fa-ban" aria-hidden="true"></i> Cancel</a>
+    </form>
+
+</body>
+
+</html>
